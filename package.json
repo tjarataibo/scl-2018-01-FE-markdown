@@ -1,0 +1,14 @@
+{
+  "name": "libreria",
+  "version": "0.0.1",
+  "description": "Realización e implementación de librería",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Tamara",
+  "license": "ISC"
+}
