@@ -39,4 +39,4 @@ function markdownLinkExtractor(markdown) {
   return links;
 };
 console.log(README.md);
-module.export = markdownLinkExtractor(README.md);
+module.exports = markdownLinkExtractor(README.md);
