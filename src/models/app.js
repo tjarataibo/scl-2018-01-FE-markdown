@@ -1,7 +1,7 @@
 // Exportar una función mdLinks
 
 const Marked = require('marked');
-const readme = require('README.md')
+const readme = require('README.md');
 
 // Función necesaria para extraer los links usando marked
 // (tomada desde biblioteca del mismo nombre y modificada para el ejercicio)
@@ -38,3 +38,5 @@ function markdownLinkExtractor(markdown) {
 
   return links;
 };
+console.log(README.md);
+module.export = markdownLinkExtractor(README.md);
