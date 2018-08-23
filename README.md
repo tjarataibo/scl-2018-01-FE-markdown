@@ -7,7 +7,7 @@ ligero muy popular entre developers. Es usado en muchísimas plataformas que
 manejan texto plano (GitHub, foros, blogs, ...), y es muy común
 encontrar varios archivos en ese formato en cualquier tipo de repositorio
 (empezando por el tradicional `README.md`).
-`Markdown` es la forma de dar estilo al texto en la web. Controlas la forma en como se ve un documento, dando formato a las palabras: como hacerlas negritas o itálicas, agregar imágenes, creando listas y links.
+`Markdown` es la forma de dar estilo al texto en la web. Es sólo un texto normal, con un poco de carácteres no-alfabeticos en él, como # o *. Con este, controlas la forma en como se ve un documento, dando formato a las palabras: como hacerlas negritas o itálicas, agregar imágenes, creando listas y links.
 Estos archivos `Markdown` normalmente contienen _links_ (vínculos/ligas) que
 muchas veces están rotos o ya no son válidos y eso perjudica mucho el valor de
 la información que se quiere compartir.
