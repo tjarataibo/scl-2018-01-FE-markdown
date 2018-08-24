@@ -20,6 +20,8 @@
     "node": "^10.8.0"
   },
   "dependencies": {
+    "async": "^2.6.1",
+    "chalk": "^2.4.1",
     "markdown-link-extractor": "^1.2.0",
     "marked": "^0.5.0"
   }
