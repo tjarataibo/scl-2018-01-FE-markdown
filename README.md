@@ -29,17 +29,6 @@ Para instalar la herramienta de línea de comandos globalmente, ejecuta:
 
 ---
 
-## Ejecutar usando Docker
-
-Construye una Docker image:
-
-    docker build --tag scl-2018-01-FE-markdown .
-
-Transfiere tu archivo `README.md` a `docker run`:
-
-    docker run --rm -i scl-2018-01-FE-markdown < README.md
-
-
 ## Ejecución de Test
 
     npm test
