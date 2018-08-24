@@ -12,7 +12,7 @@ Estos archivos `Markdown` normalmente contienen _links_ (vínculos/ligas) que
 muchas veces están rotos o ya no son válidos y eso perjudica mucho el valor de
 la información que se quiere compartir.
 
-Es por ello, que a modo de desafío, se ha creado esta [Librería](https://tjarataibo.github.io/scl-2018-01-FE-markdown) con [Versión Principal Cero](https://tjarataibo.github.io/scl-2018-01-FE-markdown/VERSION.md), utilizando la
+Es por ello, que a modo de desafío, se ha creado esta [Librería](https://tjarataibo.github.io/scl-2018-01-FE-markdown) con [Versión Principal Cero](https://github.com/tjarataibo/scl-2018-01-FE-markdown/blob/master/VERSION.md), utilizando la
 herramienta [Node.js](https://nodejs.org/), que lee y analiza archivos
 en formato `Markdown`, para verificar los links que contengan y reportar
 algunas estadísticas.
