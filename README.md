@@ -44,6 +44,14 @@ Transfiere tu archivo `README.md` a `docker run`:
 
     npm test
 
+---
+
 ## Licencia
 
 Ver [Licencia](https://tjarataibo.github.io/scl-2018-01-FE-markdown/LICENSE.md).
+
+---
+
+## Planificación
+
+Ver [Planificación](https://trello.com/b/qsR86UjY/markdown).
