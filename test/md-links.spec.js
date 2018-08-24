@@ -1,4 +1,12 @@
 // Debe contener los tests unitarios para la función mdLinks()tu implementación debe pasar estos tests.
+'use strict';
+
+const fs = require('fs');
+const path = require('path');
+const expect = require('expect.js');
+const http = require('http');
+const express = require('express');
+const markdownLinkCheck = require('../');
 
 const assert = require('chai').assert;
 global.window = global;
