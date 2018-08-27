@@ -4,7 +4,7 @@
 const [,, ...argvs] = process.argv; // process.argv devuelve una matriz que contiene los argumentos de línea de comando pasados ​​cuando se inició el proceso Node.js.
 const totalArgvs = argvs.length;
 const path = argvs[0];
-const mdLinks = require('./index');
+const mdLinks = require('./app');
 let options = {
   validate: false,
   stats: false
