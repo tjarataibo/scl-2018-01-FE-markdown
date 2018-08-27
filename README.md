@@ -21,11 +21,11 @@ algunas estadísticas.
 
 Para agregar el módulo a tu proyecto, ejecuta:
 
-    npm install <github-user>/md-links
+    npm install tjarataibo/md-links
 
 Para instalar la herramienta de línea de comandos globalmente, ejecuta:
 
-    npm install -g <github-user>/md-links
+    npm install -g tjarataibo/md-links
 
 ---
 
