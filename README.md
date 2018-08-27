@@ -21,11 +21,11 @@ algunas estadísticas.
 
 Para agregar el módulo a tu proyecto, ejecuta:
 
-    npm install --save scl-2018-01-FE-markdown
+    npm install <github-user>/md-links
 
 Para instalar la herramienta de línea de comandos globalmente, ejecuta:
 
-    npm install -g scl-2018-01-FE-markdown
+    npm install -g <github-user>/md-links
 
 ---
 

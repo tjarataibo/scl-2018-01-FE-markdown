@@ -2,9 +2,12 @@
   "name": "libreria",
   "version": "0.0.1",
   "description": "Realización e implementación de librería",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "mocha"
+  },
+  "bin": {
+    "md-links": "./src/cli.js"
   },
   "keywords": [
     "node"
@@ -16,6 +19,7 @@
     "eslint": "^5.4.0",
     "expect": "^23.5.0",
     "express": "^4.16.3",
+    "htmlhint": "^0.9.13",
     "link-check": "^4.4.4",
     "mocha": "^5.2.0",
     "node": "^10.8.0"
@@ -24,6 +28,7 @@
     "async": "^2.6.1",
     "chalk": "^2.4.1",
     "markdown-link-extractor": "^1.2.0",
-    "marked": "^0.5.0"
+    "marked": "^0.5.0",
+    "node-fetch": "^2.2.0"
   }
 }
