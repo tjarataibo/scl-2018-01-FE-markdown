@@ -1,7 +1,8 @@
 #!/usr/bin/env node
-
-// EJEMPLO: function(a, b, ...theArgs). Si el último argumento definido de una función se le antepone con ..., éste se convierte en un arreglo cuyos elementos desde 0 (inclusivo) hasta theArgs.length (exclusivo) son pasados a la función.
-const [,, ...argvs] = process.argv; // Operador "esparcir". Captará todos los argumentos dados de línea de comando. process.argv devuelve una matriz que contiene los argumentos de línea de comando pasados ​​cuando se inició el proceso Node.js. 
+const [,, ...argvs] = process.argv; /* ... Operador "esparcir" o sintaxis de propagación permite expandir 
+una expresión o cadena de matriz en lugares donde se esperan cero o más argumentos. 
+Captará todos los argumentos dados de línea de comando. process.argv devuelve una matriz que contiene los 
+argumentos de línea de comando pasados ​​cuando se inició el proceso Node.js.  */
 const resultArgvs = argvs.length;
 const path = argvs[0];
 const mdLinks = require('./app');
@@ -24,18 +25,15 @@ if (resultArgvs === 1) {
   options.validate = true;
   mdLinks(path, options)
     .then(response => response.forEach(({file, href, text, line, validate}) => console.log(`${file}:${line} ${href} ${validate.statusText} ${validate.status} ${text}`)));
-
 } else if (resultArgvs === 2 && argvs[1] === '--stats') {
   options.stats = true;
   mdLinks(path, options)
     .then(response => console.log(response));
-
 } else if (resultArgvs === 3 && argvs[1] === '--validate' && argvs[2] === '--stats') {
   options.validate = true;
   options.stats = true;
   mdLinks(path, options)
     .then(response => console.log(response));
-    
 } else {
   console.log('Comando no válido');
 }
